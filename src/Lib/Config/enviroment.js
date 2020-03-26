@@ -1,0 +1,10 @@
+const enviromentVars = {
+  NOMBRE_EMPRESA: process.env.REACT_APP_NOMBRE_EMPRESA,
+  GOOGLE_SPREADSHEET_ID: process.env.REACT_APP_GOOGLE_SPREADSHEET_ID,
+  EMAIL_ACCOUNT: process.env.REACT_APP_EMAIL_ACCOUNT,
+  EMAIL_SECRET: process.env.REACT_APP_EMAIL_SECRET,
+  EMAIL_FROM_ADDR: process.env.REACT_APP_EMAIL_FROM_ADDR,
+  EMAIL_HOST: process.env.REACT_APP_EMAIL_HOST
+};
+
+export default enviromentVars;
