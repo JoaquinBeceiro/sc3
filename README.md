@@ -11,7 +11,7 @@ Los nuevos pedidos se registran en la hoja de cálculo y al mismo tiempo, se not
 Colaborar con las PYMES que están afontando una crisis, abriendo un nuevo canal de ventas .
 
 ## Datos técnicos
-> Sitio web realizado en **React** + **Redux**.
+> Sitio web realizado en **React** + **Redux** utilizando el concepto de diseño "Mobile First".
 
 ### Arquitectura
 ![Arquitectura](Readme/Arquitectura.png)
@@ -57,6 +57,11 @@ Por ejemplo, en `https://docs.google.com/spreadsheets/d/1qffzsCf2siRv-loAAMLeGzs
 ```
 NOMBRE_EMPRESA=SalimosCodoaCodo
 GOOGLE_SPREADSHEET_ID=1qffzsCf2siRv-loAAMLeGzsSsmwcT3odSfmXBASO0fg
+
+EMAIL_ACCOUNT=joaquinbeceiro@gmail.com
+EMAIL_SECRET=abcdefghijklmnop
+EMAIL_FROM_ADDR=joaquinbeceiro@gmail.com
+EMAIL_HOST=smtp.gmail.com
 ```
 
 2. Agregar el archivo "JSON" descargado anteriormente en la raíz del proyecto con el nombre `google.json`.
