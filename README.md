@@ -64,7 +64,7 @@ REACT_APP_EMAIL_FROM_ADDR=joaquinbeceiro@gmail.com
 REACT_APP_EMAIL_HOST=smtp.gmail.com
 ```
 
-2. Agregar el archivo "JSON" descargado anteriormente en la raíz del proyecto con el nombre `google.json`.
+2. Agregar el archivo "JSON" descargado anteriormente en la raíz (src) del proyecto con el nombre `google.json`.
 
 
 ## Authors
