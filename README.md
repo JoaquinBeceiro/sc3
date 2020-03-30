@@ -2,6 +2,8 @@
 
 ## Introducción 
 Esta plataforma se crea debido a la problemática que afrontan las PYMES por la pandemia de COVID-19.
+![Main](Readme/MainSS.png)
+![SC3testSS](Readme/SC3testSS.png)
 
 ## Que es?
 Gestor de pedidos para PYMES **100% gratuito**, con control de stock y administrado desde una simple hoja de cálculo de Google.
