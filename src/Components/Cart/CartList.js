@@ -12,14 +12,14 @@ import Avatar from "@material-ui/core/Avatar";
 import IconButton from "@material-ui/core/IconButton";
 import DeleteIcon from "@material-ui/icons/Delete";
 
-const ItemInfoContainer = styled.div`
+const ItemInfoContainer = styled.span`
   display: flex;
   flex-direction: row;
   font-size: 11px;
   margin: 5px 10px 0 0;
 `;
 
-const ItemInfo = styled.div`
+const ItemInfo = styled.span`
   display: flex;
   padding: 2px 10px;
   margin: 2px 0;
@@ -48,7 +48,7 @@ const CartList = ({ items, removeFromCart }) => {
 
 
   if (items.length === 0) return <p>Carrito vacío</p>;
-  
+
   return (
     <List>
       {items &&

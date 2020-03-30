@@ -25,17 +25,17 @@ const ListContainer = styled.div`
 
 const Cart = ({ items, removeFromCart }) => {
   const [showList, setShowList] = useState(false);
+
+  const handleCartClick = () => {
+    setShowList(!showList);
+  };
   return (
     <FabContainer>
       <ListContainer show={showList}>
         <CartList items={items} removeFromCart={removeFromCart} />
       </ListContainer>
-      <Fab color="primary" aria-label="add">
-        <ShoppingCartIcon
-          onClick={() => {
-            setShowList(!showList);
-          }}
-        />
+      <Fab color="primary" aria-label="add" onClick={handleCartClick}>
+        <ShoppingCartIcon  />
       </Fab>
     </FabContainer>
   );
